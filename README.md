@@ -31,7 +31,30 @@ So, what can you do to move forward with Git?
 1. Sign in to GitHub.
 2. Use [issue section](https://github.com/fkrynitzky/bsr-git/issues) to add new issue requesting me to describe your task. If such issue already exists, mark your presence there by posting a comment or reacting to existing comments.
 
+
+### The Task
+
+First, watch video about lunar arithmetic:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=cZkGeR9CWbk
+" target="_blank"><img src="http://img.youtube.com/vi/cZkGeR9CWbk/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+Secondly - and this is where long-awaited coding and Git learning actually starts - write lunar arithmetic library that implements addition and multiplication. You're free to choose the programming language. Preferably let it be the the one you feel most comfortable with. There are, however, some guidelines you should follow when developing and submitting code.
+
+#### Project guidelines
+
+1. Work on separate branch, dedicated to developing library with language of your choice. Use `git checkout` with `-b` option to create and switch to your branch. Name your branch after the language you chose. So, for example, if you chose Arduino C/C++, you could start your branch using command `git checkout -b arduino-c`.
+2. Put your code into a directory named after the language you chose. So, for instance, if you chose Python, create `python/` directory under the top-most project directory and put your code there.
+3. Use a separate commit for each feature implemented. That said, there should be at least two commits on each language-specific branch: one for adding addition and second for multiplication.
+4. Follow [commit message guideline](https://chris.beams.io/posts/git-commit/). 
+
+To start working, clone this repo to your local machine:
+
+`git clone https://github.com/athleaguerm/awaken-backend.git`
+
+... and start coding!
+
 ### FAQ
 *Why English?*
-We agreed to write documentation of our target project in English. Let's start
-practicing now.
+We agreed to write documentation of our target project in English. Let's start practicing now.
