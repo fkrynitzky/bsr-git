@@ -53,7 +53,13 @@ string lunarMultiplication(string x, string y){
 			}
 		}
 	}
-	number[1] += '0';
+	
+	//Adding zeros to the end of the strings respectfully
+	for(int i = 1; i < x.length(); i++){
+		for(int k = 0; i < x.length(); i++){
+			number[i] += '0';
+		}
+	}
 	
 	return lunarAddition(number[0],number[1]);
 }
