@@ -30,7 +30,7 @@ def multiplication(x,y):
         while(u>0):
             sum1 += "0"
             u -= 1
-        sum2 = adding_beta(sum1,sum2)
+        sum2 = adding(sum1,sum2)
         sum1 = ""
     return ''.join(sum2)
 
